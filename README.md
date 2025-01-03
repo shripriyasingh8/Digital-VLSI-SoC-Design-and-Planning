@@ -36,7 +36,7 @@ $$
 $$
 Aspect \ Ratio = \frac{Height \ of \ the \ core}{Width \ of \ the \ core}
 $$
-## OBJECTIVES
+## OBJECTIVES:
 **1. Run Floorplan using OpenLANE:**
 
 ![Screenshot (593)](https://github.com/user-attachments/assets/bc9ae883-b398-42b3-9773-8ac2ede57b11)
