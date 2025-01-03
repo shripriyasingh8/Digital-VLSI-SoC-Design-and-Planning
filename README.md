@@ -60,6 +60,27 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 ![Screenshot (597)](https://github.com/user-attachments/assets/8384dc26-e72a-41d7-a0d4-2c17abeab2de)
 
+**3. To run placement def in the MAGIC Tool:**
+
+_To do so, we can use the following command in OpenLANE:-_
+```
+run_placement
+```
+
+![Screenshot (598)](https://github.com/user-attachments/assets/56a45752-0b1d-4f39-90b6-d5d20961060b)
+
+
+_After this, go to the directory:_
+```
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/02-01_11-58/results/placement/
+```
+_And then, enter the command to launch the placement def file in MAGIC Tool:_
+```
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech \
+lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+```
+![Screenshot (599)](https://github.com/user-attachments/assets/f1554273-5d99-4f99-9fcd-f08fab418b76)
+
 
 
 
