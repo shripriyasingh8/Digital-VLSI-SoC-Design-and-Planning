@@ -8,13 +8,13 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 * [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Day-2---Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### Tasks:
-**1. To start OpenLANE in interactive mode:**
+**1. To start OpenLANE in Interactive Mode:**
    
    ![OpenLANE in Interactive mode](https://github.com/user-attachments/assets/42757203-6ae1-4684-86ed-9a4f344b5a19)
 **2. To Run Synthesis:**
    
    ![Screenshot (588)](https://github.com/user-attachments/assets/d3cc703d-61c0-4e8a-a1d2-ac53e8d46fe4)
-**3. To calculate the Flop Ratio:**
+**3. To Calculate the Flop Ratio:**
    
    $$
    Flop \ Ratio = \frac{No. \ of \ D \ Flip-Flops}{Total \ no. \ of \ cells}
