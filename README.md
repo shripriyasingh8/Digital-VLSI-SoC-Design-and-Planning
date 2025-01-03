@@ -9,7 +9,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 ### Tasks:
 1. To start OpenLANE in interactive mode:
    ![OpenLANE in Interactive mode](https://github.com/user-attachments/assets/42757203-6ae1-4684-86ed-9a4f344b5a19)
-2. To Run Synthesis:
+2. To Run Synthesis: 
    ![Screenshot (588)](https://github.com/user-attachments/assets/d3cc703d-61c0-4e8a-a1d2-ac53e8d46fe4)
 
    
