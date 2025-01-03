@@ -12,7 +12,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 2. To Run Synthesis: 
    ![Screenshot (588)](https://github.com/user-attachments/assets/d3cc703d-61c0-4e8a-a1d2-ac53e8d46fe4)
 3. To calculate the Flop Ratio:
-   $Flop Ratio=No. of D Flip-Flops/Total No. of Cells$   
+   $$Flop Ratio=No. of D Flip-Flops/Total No. of Cells$$  
 
    
 
