@@ -81,6 +81,11 @@ lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 ```
 ![Screenshot (599)](https://github.com/user-attachments/assets/f1554273-5d99-4f99-9fcd-f08fab418b76)
 
+_Now, if we zoom in, we can see the placement of the standard cells:_
+
+![Screenshot (601)](https://github.com/user-attachments/assets/718c8fd0-764a-4c20-949a-58ba355a7131)
+
+
 
 
 
