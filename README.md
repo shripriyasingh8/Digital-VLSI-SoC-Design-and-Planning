@@ -20,6 +20,20 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
    ![Screenshot (589)](https://github.com/user-attachments/assets/337462f1-7d34-4da7-8288-de02d24b6a15)
 
 ## Day 2 - Good floorplan vs bad floorplan and introduction to library cells
+## Chip Floor planning considerations
+### Core: 
+A 'core' is the section of the chip where the fundamental design of the logic is placed.
+### Die:
+A 'die', which consists of core, is small semiconductor material speciman on which the fundamental circuit is fabricated. 
+### Utilisation factor: 
+$$
+Utlisation factor = (Area occupied by netlist) \over (Total area of the core)
+$$
+
+
+
+
+
 
  
   
