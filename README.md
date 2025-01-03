@@ -27,7 +27,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
   A 'die', which consists of core, is small semiconductor material speciman on which the fundamental circuit is fabricated. 
 * ### Utilisation factor: 
 $$
-Utilization Factor = \frac{Area \ occupied \ by \ netlist}{Total \ core \ area}
+Utilization \ Factor = \frac{Area \ occupied \ by \ netlist}{Total \ core \ area}
 $$
 
 
