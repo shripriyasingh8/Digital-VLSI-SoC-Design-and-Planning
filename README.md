@@ -1,4 +1,4 @@
-# Digital-VLSI-SoC-Design-and-Planning-Program
+# Digital VLSI SoC Design and Planning Program
 ## Overview
 This is a two-week long workshop conducted by VSD in collaboration with NASSCOM. This course provides a comprehensive outlook of the RTL2GDSII flow, making us understand how to convert high-level designs into a format ready for silicon fabrication. This repository demonstrates my learnings and work regarding the same. 
 ## Tools Used
