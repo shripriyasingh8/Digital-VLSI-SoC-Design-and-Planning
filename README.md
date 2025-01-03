@@ -43,9 +43,15 @@ $$
 ![Screenshot (594)](https://github.com/user-attachments/assets/38bdc5c4-ba50-412a-ab15-ded9a2e0208c)
 ![Screenshot (595)](https://github.com/user-attachments/assets/2fefac27-d65c-4d35-832f-0f7ca04347a8)
 
-**Once the Floorplanning has been executed, you can view the results in the 'Floorplan' directory and analyse factors like the 'Die Area'**
+**Once the Floorplanning has been executed, we can view the results in the 'Floorplan' directory and analyse factors like the 'Die Area':**
 
 ![Screenshot (596)](https://github.com/user-attachments/assets/647cac8f-10c5-444f-92d9-222baebdd84b)
+
+**1. To see the actual layout after Floorplan, we can use use the MAGIC Tool:**
+We can use the command-
+```
+sfosi
+```
 
 
 
