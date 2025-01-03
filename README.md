@@ -27,7 +27,7 @@ A 'core' is the section of the chip where the fundamental design of the logic is
 A 'die', which consists of core, is small semiconductor material speciman on which the fundamental circuit is fabricated. 
 ### Utilisation factor: 
 $$
-Utlisation factor = (Area occupied by netlist) \over (Total area of the core)
+(Utlisation factor) = (Area occupied by netlist) \over (Total area of the core)
 $$
 
 
