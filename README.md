@@ -17,7 +17,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 3. To calculate the Flop Ratio:
    
    $$
-   Utilization \ Factor = \frac{Area \ occupied \ by \ netlist}{Total \ area \ of \ the \ core}
+   Flop \ Ratio = \frac{No. \ of \ D \ Flip-Flops}{Total \ no. \ of \ cells}
    $$
  
    ![Screenshot (589)](https://github.com/user-attachments/assets/337462f1-7d34-4da7-8288-de02d24b6a15)
