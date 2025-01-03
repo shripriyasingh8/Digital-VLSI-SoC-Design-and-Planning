@@ -1,9 +1,9 @@
-**# Digital VLSI SoC Design and Planning Program**
-**_## OVERVIEW_**
+# **Digital VLSI SoC Design and Planning Program**
+## OVERVIEW
 This is a two-week long workshop conducted by VSD in collaboration with NASSCOM. This course provides a comprehensive outlook of the RTL2GDSII flow, making us understand how to convert high-level designs into a format ready for silicon fabrication. This repository demonstrates my learnings from the same. 
-**_## Tools Used_**
+## Tools Used
 1. **_Sky130 PDK_**: The SKY130 is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor before being spun out into SkyWater Technology and made accessible to general industry. SkyWater and Google’s collaboration is now making this technology accessible to everyone!
-**_## Table of Content_**
+## Table of Content
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Day-1---Inception-of-open---source-EDA-,-OpenLANE-and-Sky130-PDK)
 * [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Day-2---Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
