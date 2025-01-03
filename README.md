@@ -5,6 +5,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 1. **_Sky130 PDK_**: The SKY130 is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor before being spun out into SkyWater Technology and made accessible to general industry. SkyWater and Google’s collaboration is now making this technology accessible to everyone!
 ## Content
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Day-1---Inception-of-open---source-EDA-,-OpenLANE-and-Sky130-PDK)
+* [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Day-2---Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### Tasks:
 1. To start OpenLANE in interactive mode:
@@ -17,6 +18,8 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
    $Flop Ratio = {Number of D Flip Flops \over Total Number of Cells}={1613 \over 14876}=0.108429$
  
    ![Screenshot (589)](https://github.com/user-attachments/assets/337462f1-7d34-4da7-8288-de02d24b6a15)
+
+## Day 2 - Good floorplan vs bad floorplan and introduction to library cells
 
  
   
