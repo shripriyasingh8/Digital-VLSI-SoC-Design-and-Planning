@@ -47,7 +47,7 @@ $$
 
 ![Screenshot (596)](https://github.com/user-attachments/assets/647cac8f-10c5-444f-92d9-222baebdd84b)
 
-**2. To see the actual layout after Floorplan, we can use use the MAGIC Tool:**
+**2. To see the actual layout after Floorplan, we can use the MAGIC Tool:**
 
 We can use the following command to open the MAGIC Tool:-
 ```
