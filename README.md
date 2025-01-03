@@ -17,7 +17,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 **3. To Calculate the Flop Ratio:**
    
    $$
-   Flop \ Ratio = \frac{No. \ of \ D \ Flip-Flops}{Total \ no. \ of \ cells}
+   Flop \ Ratio = \frac{No. \ of \ D \ Flip-Flops}{Total \ no. \ of \ cells}=\frac{1613}{14876}=0.108429
    $$
  
    ![Screenshot (589)](https://github.com/user-attachments/assets/337462f1-7d34-4da7-8288-de02d24b6a15)
