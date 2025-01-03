@@ -49,7 +49,7 @@ $$
 
 **2. To see the actual layout after Floorplan, we can use the MAGIC Tool:**
 
-We can use the following command to open the MAGIC Tool:-
+_We can use the following command to open the MAGIC Tool:-_
 ```
 cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/02-01_11-58/results/floorplan/
 ```
