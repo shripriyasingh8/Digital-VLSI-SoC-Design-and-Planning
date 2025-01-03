@@ -14,9 +14,11 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
    
    ![Screenshot (588)](https://github.com/user-attachments/assets/d3cc703d-61c0-4e8a-a1d2-ac53e8d46fe4)
 3. To calculate the Flop Ratio:
-   $$
    $Flop Ratio = {Number of D Flip Flops \over Total Number of Cells}$
-   $$
+   $Flop Ratio = {1613 \over 14876}=0.108429$
+   ![Screenshot (589)](https://github.com/user-attachments/assets/337462f1-7d34-4da7-8288-de02d24b6a15)
+
+ 
   
 
    
