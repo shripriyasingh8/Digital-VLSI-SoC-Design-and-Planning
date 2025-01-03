@@ -16,7 +16,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
    ![Screenshot (588)](https://github.com/user-attachments/assets/d3cc703d-61c0-4e8a-a1d2-ac53e8d46fe4)
 3. To calculate the Flop Ratio:
    $$
-   Flop \ Ratio = \frac{Number \ of \ D \ Flip \ Flops}{Total \ Number \ of \ Cells}=\frac{1613}{14876}=0.108429
+   Flop \ Ratio = \frac{Number \ of \ D \ Flip \ Flops}{Total \ Number \ of \ Cells}
    $$
  
    ![Screenshot (589)](https://github.com/user-attachments/assets/337462f1-7d34-4da7-8288-de02d24b6a15)
@@ -29,7 +29,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
   A 'die', which consists of core, is small semiconductor material speciman on which the fundamental circuit is fabricated. 
 * ### Utilisation factor: 
 $$
-Utilization \ Factor = \frac{Area \ occupied \ by \ netlist}{Total \ core \ area}
+Utilization \ Factor = \frac{Area \ occupied \ by \ netlist}{Total \ area \ of \ the \ core}
 $$
 
 
