@@ -5,8 +5,8 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 1. **_Sky130 PDK_**: The SKY130 is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor before being spun out into SkyWater Technology and made accessible to general industry. SkyWater and Google’s collaboration is now making this technology accessible to everyone!
 ## Content
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Day-1---Inception-of-open---source-EDA-,-OpenLANE-and-Sky130-PDK)
-# Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
-# Tasks:
+## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
+### Tasks:
 1. To start OpenLANE in interactive mode:
    ![OpenLANE in Interactive mode](https://github.com/user-attachments/assets/42757203-6ae1-4684-86ed-9a4f344b5a19)
 2. To Run Synthesis:
