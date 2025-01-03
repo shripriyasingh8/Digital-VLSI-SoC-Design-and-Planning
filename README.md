@@ -32,6 +32,10 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 $$
 Utilization \ Factor = \frac{Area \ occupied \ by \ netlist}{Total \ area \ of \ the \ core}
 $$
+* ### Aspect Ratio: 
+$$
+Aspect \ Ratio = \frac{Height \ of \ the \ core}{Width \ of \ the \ core}
+$$
 
 
 
