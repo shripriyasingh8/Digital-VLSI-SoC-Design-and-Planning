@@ -7,7 +7,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Day-1---Inception-of-open---source-EDA-,-OpenLANE-and-Sky130-PDK)
 * [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Day-2---Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
-### Tasks:
+### OBJECTIVES:
 **1. To start OpenLANE in Interactive Mode:**
    
    ![OpenLANE in Interactive mode](https://github.com/user-attachments/assets/42757203-6ae1-4684-86ed-9a4f344b5a19)
