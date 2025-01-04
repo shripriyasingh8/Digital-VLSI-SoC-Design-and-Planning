@@ -111,6 +111,18 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
    ```
    ![Screenshot (604)](https://github.com/user-attachments/assets/79340928-5554-4247-a6df-fb86a69fd8ac)
 
+3. Identify the NMOS & PMOS region from the layout given:
+   * For NMOS: Place the cursor on the intersection region of polysilicon and n-diffusion, and press _'s'_. Then go to the _'tkcon'_ window and type _'what'_.
+
+   ![Screenshot (605)](https://github.com/user-attachments/assets/86c5444a-b408-4562-978b-375ba2d14f1a)
+   *  For PMOS: Place the cursor on the intersection region of polysilicon and p-diffusion, and press _'s'_. Then go to the _'tkcon'_ window and type _'what'_.
+
+   ![Screenshot (606)](https://github.com/user-attachments/assets/f636191c-6665-466b-ad14-058b971fe3fa)
+
+   
+
+   
+
 
 
    
