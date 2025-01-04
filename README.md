@@ -140,13 +140,14 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
      ![Screenshot (611)](https://github.com/user-attachments/assets/3dab695a-bc96-40d8-8c9d-81674bf4033e)
 
 6. Plot the result:
-   Command used:
+   
+   Command used - 
    ```
    plot y vs time a
    ```
    ![Screenshot (614)](https://github.com/user-attachments/assets/db1bf4f3-8678-4320-8516-d23d933730bc)
 
-7. Characterization using NGSPICE:
+8. Characterization using NGSPICE:
    - Parameters to characterize:
      - Rise Time: The time taken for the output waveform to transition from 20% to 80% of its maximum value.
      - Fall Time: The time taken for the output waveform to transition from 80% to 20% of its maximum value.
