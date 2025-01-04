@@ -89,8 +89,9 @@ _Now, if we zoom in, we can see the placement of the standard cells:_
 ## Day 3 - Design library cell using Magic Layout and ngspice characterization
 ### Overview
 In this section, we have to design a CMOS Invertor layout using the MAGIC tool and then characterize it with the Ngspice tool.
-STEPS:
-_Clone the repository containing the inverter layout provided by Nickson Jose Sir.
+
+### STEPS:
+1. Clone the repository containing the inverter layout provided by Nickson Jose Sir.
 ```
 cd Desktop/work/tools/openlane_working_dir/openlane
 git clone https://github.com/nickson-jose/vsdstdcelldesign.git
