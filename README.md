@@ -6,6 +6,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 ## _Table of Content_
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Day-1---Inception-of-open---source-EDA-,-OpenLANE-and-Sky130-PDK)
 * [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Day-2---Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
+* [Day 3 - Design library cell using Magic Layout and ngspice characterization](#Day-3---Design-library-cell-using-Magic-Layout-and-ngspice-characterization)
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### OBJECTIVES:
 **1. To start OpenLANE in Interactive Mode:**
@@ -84,6 +85,18 @@ lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 _Now, if we zoom in, we can see the placement of the standard cells:_
 
 ![Screenshot (601)](https://github.com/user-attachments/assets/718c8fd0-764a-4c20-949a-58ba355a7131)
+
+## Day 3 - Design library cell using Magic Layout and ngspice characterization
+### Overview
+In this section, we have to design a CMOS Invertor layout using the MAGIC tool and then characterize it with the Ngspice tool.
+STEPS:
+_Clone the repository containing the inverter layout provided by Nickson Jose Sir.
+```
+cd Desktop/work/tools/openlane_working_dir/openlane
+git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+```
+
+
 
 
 
