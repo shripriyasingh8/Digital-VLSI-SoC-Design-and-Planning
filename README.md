@@ -119,6 +119,18 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
 
    ![Screenshot (606)](https://github.com/user-attachments/assets/f636191c-6665-466b-ad14-058b971fe3fa)
 
+4. Extract the layout on SPICE:
+   Command used in _'tkcon'_ -
+   ```
+   extract all
+   ext2spice cthresh 0 rthresh 0
+   ext2spice
+   ```
+   ![Screenshot (607)](https://github.com/user-attachments/assets/32b6ea2a-d32d-428a-a469-342c0cdf3c62)
+   ![Screenshot (608)](https://github.com/user-attachments/assets/c4b3f3e6-c5a4-4f87-b9d1-9d74b8fa18b1)
+   
+
+
    
 
    
