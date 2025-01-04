@@ -128,7 +128,17 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
    ```
    ![Screenshot (607)](https://github.com/user-attachments/assets/32b6ea2a-d32d-428a-a469-342c0cdf3c62)
    ![Screenshot (608)](https://github.com/user-attachments/assets/c4b3f3e6-c5a4-4f87-b9d1-9d74b8fa18b1)
-   
+      
+5. Run NGSPICE:
+   * Write the necessary code:
+     ![Screenshot (613)](https://github.com/user-attachments/assets/cbf603cf-339e-4ef0-8638-7ecbf92a7a1a)
+
+   * Run ngpice using the command:
+     ```
+     ngspice sky130_inv.spice
+     ```
+     ![Screenshot (611)](https://github.com/user-attachments/assets/3dab695a-bc96-40d8-8c9d-81674bf4033e)
+
 
 
    
