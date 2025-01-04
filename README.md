@@ -92,18 +92,25 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
 
 ### STEPS:
 1. Clone the repository containing the inverter layout provided by Nickson Jose Sir by following the below command:
-```
-cd Desktop/work/tools/openlane_working_dir/openlane
-git clone https://github.com/nickson-jose/vsdstdcelldesign.git
-```
+   ```
+   cd Desktop/work/tools/openlane_working_dir/openlane
+   git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+   ```
    ![Screenshot (602)](https://github.com/user-attachments/assets/9da49250-46cf-4478-b6bb-262fd85b14a1)
 
 2. Copy **_'sky130A.tech'_** file from **_'libs.tech/magic'_** to **_'vsdstdcelldesign.git'_**
-```
-cd vsdstdcelldesign
-cp sky130A.tech /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
-```
+   ``` 
+   cd vsdstdcelldesign
+   cp sky130A.tech /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
+   ```
    ![Screenshot (603)](https://github.com/user-attachments/assets/ffcc83a9-ca52-4333-abae-f85963fe8091)
+
+3. Open the inverter layout in MAGIC:
+   ```
+   magic -T sky130A.tech sky130_inv.mag &
+   ```
+   ![Screenshot (604)](https://github.com/user-attachments/assets/79340928-5554-4247-a6df-fb86a69fd8ac)
+
 
 
    
