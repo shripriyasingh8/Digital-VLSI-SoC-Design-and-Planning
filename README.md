@@ -147,12 +147,19 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
    ```
    ![Screenshot (614)](https://github.com/user-attachments/assets/db1bf4f3-8678-4320-8516-d23d933730bc)
 
+   Now, we can make changes in the load capacitance to smoothen the spikes in the plot:
+   ![Screenshot (616)](https://github.com/user-attachments/assets/b6172d06-b4ed-46c0-89b9-70590f1ffeeb)
+
+
 8. Characterization using NGSPICE:
    - Parameters to characterize:
      - Rise Time: The time taken for the output waveform to transition from 20% to 80% of its maximum value.
      - Fall Time: The time taken for the output waveform to transition from 80% to 20% of its maximum value.
      - Propagation Delay: The time taken for a 50% transition at the output (0 to 1) corresponding to a 50% transition at the input (1 to 0).
      - Cell Fall Delay: The time taken for a 50% transition at the output (1 to 0) corresponding to a 50% transition at the input (0 to 1).
+9. To use the inverter layout in MAGIC and create a LEF file and that LEF file will be used in our OpenLANE
+    
+    
    
    
    
