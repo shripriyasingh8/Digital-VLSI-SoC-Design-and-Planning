@@ -179,12 +179,19 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
       magic -d XR &
       ```
       ![Screenshot (622)](https://github.com/user-attachments/assets/7b2c9e32-3b7b-42da-9964-7ce623397ec2)
+      ![Screenshot (624)](https://github.com/user-attachments/assets/4c27334a-4f94-4fd5-bccd-2ef54cea7fe9)
+
 
     * Open the periphery rules of metal 3:
       ```
        https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html#m3
       ```
       ![Screenshot (623)](https://github.com/user-attachments/assets/9827d0ed-a55e-47a4-bfbe-2179dd62321c)
+
+    * Use ``` drc why ``` in the console to see which rule got violated:
+      ![Screenshot (625)](https://github.com/user-attachments/assets/cb68da88-6435-4747-974e-74a2ddcf16b4)
+
+        
       
  
   
