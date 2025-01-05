@@ -189,7 +189,36 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
       ![Screenshot (623)](https://github.com/user-attachments/assets/9827d0ed-a55e-47a4-bfbe-2179dd62321c)
 
     * Use ``` drc why ``` in the console to see which rule got violated:
+      
       ![Screenshot (625)](https://github.com/user-attachments/assets/cb68da88-6435-4747-974e-74a2ddcf16b4)
+      ![Screenshot (627)](https://github.com/user-attachments/assets/06962729-c793-42d4-a704-8d716572762a)
+
+    * ```Load poly``` to see the errors:
+      ![Screenshot (629)](https://github.com/user-attachments/assets/586a775e-645e-4b5e-a389-bfd779148767)
+
+    * Search for poly.9 and make the necessary changes:
+      ![Screenshot (630)](https://github.com/user-attachments/assets/a95a54ce-1b7d-4b4f-a71d-ccc5eea43bb3)
+      ![Screenshot (631)](https://github.com/user-attachments/assets/6c718802-a260-46f8-86f6-5c2e9796c60f)
+      ![Screenshot (632)](https://github.com/user-attachments/assets/51a25fd8-baf4-4935-abb0-22a8e27cf605)
+
+    * Now we don't need to restart MAGIC to check this change. We can just write the given command on the command line in MAGIC Tool:
+      ```
+      tech load sky130A.tech
+      ```
+      ```
+      drc check
+      ```
+      ![Screenshot (633)](https://github.com/user-attachments/assets/17ff8ccb-f37f-45d2-8403-982ad01c3bc1)
+      ![Screenshot (634)](https://github.com/user-attachments/assets/cbbe2cbe-6644-44d5-8f6a-752eb40ae5b0)
+
+    * Exercise to implement poly resistor spacing to diff and tap:
+       
+
+
+
+  
+  
+
 
         
       
