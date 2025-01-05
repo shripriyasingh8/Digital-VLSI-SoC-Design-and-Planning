@@ -151,13 +151,46 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
    ![Screenshot (616)](https://github.com/user-attachments/assets/b6172d06-b4ed-46c0-89b9-70590f1ffeeb)
 
 
-8. Characterization using NGSPICE:
+8. Characterization of Inverter using sky130 model files:
    - Parameters to characterize:
      - Rise Time: The time taken for the output waveform to transition from 20% to 80% of its maximum value.
      - Fall Time: The time taken for the output waveform to transition from 80% to 20% of its maximum value.
      - Propagation Delay: The time taken for a 50% transition at the output (0 to 1) corresponding to a 50% transition at the input (1 to 0).
      - Cell Fall Delay: The time taken for a 50% transition at the output (1 to 0) corresponding to a 50% transition at the input (0 to 1).
-9. To use the inverter layout in MAGIC and create a LEF file and that LEF file will be used in our OpenLANE
+9. To find errors in the DRC section of the magic tech file for the sky130 process and fix them:
+    * Download and unzip the DRC Test Files by using the given command step-by-step:
+      ```
+      cd
+      wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+      tar xfz drc_tests.tgz
+      cd drc_tests
+      ls -al
+      ```
+      ![Screenshot (620)](https://github.com/user-attachments/assets/bec33246-be6c-4740-aab6-43dcb357d459)
+
+    * View .magicrc file:
+      ```
+      vi .magicrc
+      ```
+      ![Screenshot (621)](https://github.com/user-attachments/assets/d9540470-7002-4f17-bd4f-4c8544ce8cff)
+
+    * Open MAGIC Tool by using the command as under. This has better graphics than the traditional one.
+      ```
+      magic -d XR &
+      ```
+      ![Screenshot (622)](https://github.com/user-attachments/assets/7b2c9e32-3b7b-42da-9964-7ce623397ec2)
+
+    * Open the periphery rules of metal 3:
+      ```
+       https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html#m3
+      ```
+      ![Screenshot (623)](https://github.com/user-attachments/assets/9827d0ed-a55e-47a4-bfbe-2179dd62321c)
+      
+ 
+  
+  
+
+      
     
     
    
