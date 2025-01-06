@@ -261,7 +261,45 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
      ![Screenshot (646)](https://github.com/user-attachments/assets/60993ad3-3e7c-4c94-af6f-49eed87806de)
 
   5. Modify config.tcl and add new LEF file in OpenLANE:
+     ```
+      set ::env(LIB_SYNTH) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+      set ::env(LIB_FASTEST) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__fast.lib"
+      set ::env(LIB_SLOWEST) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__slow.lib"
+      set ::env(LIB_TYPICAL) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+
+      set ::env(EXTRA_LEFS) [glob $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/src/*.lef]
+     ```
      ![Screenshot (647)](https://github.com/user-attachments/assets/cf3f6d98-d657-4871-9e1d-5d49bf223a3a)
+
+  7. Run Openlane Preparation and Synthesis:
+     ![Screenshot (648)](https://github.com/user-attachments/assets/ef515c32-6e81-438a-b316-d54fe365fddd)
+     ![Screenshot (649)](https://github.com/user-attachments/assets/99a35a4f-6187-43a2-ba60-59a8f4e2bb18)
+     ![Screenshot (650)](https://github.com/user-attachments/assets/aa75b92b-2c6a-44ec-8403-0b73dd58fabf)
+     ![Screenshot (651)](https://github.com/user-attachments/assets/6632fcd6-aa27-405e-a0be-702c31cab887)
+
+  9. Run floorplan and placment:
+     ![Screenshot (652)](https://github.com/user-attachments/assets/c49eda23-63f5-4410-b929-cc0842ee5e3c)
+     ![Screenshot (653)](https://github.com/user-attachments/assets/3ee53220-ff5a-4e29-b38e-08cdca749294)
+
+  10. Load the generated placement DEF into the MAGIC Tool:
+      ```
+      cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/02-01_11-58/results/placement/
+      ```
+      ```
+      magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+      ```
+      ![Screenshot (654)](https://github.com/user-attachments/assets/54845060-03ac-463b-8d35-ac30d3d65e79)
+      ![Screenshot (655)](https://github.com/user-attachments/assets/ecdf7709-fbed-43d6-9bf6-42111c88c818)
+
+   11. We can use the ```expand``` command to get a detailed view of the placement cells.
+       ![Screenshot (656)](https://github.com/user-attachments/assets/c80cb944-af3e-4468-a964-1f0564ef27c9)
+
+       
+
+
+
+
+
      
 
 
