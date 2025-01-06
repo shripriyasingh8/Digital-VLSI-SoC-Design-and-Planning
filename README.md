@@ -7,6 +7,8 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Day-1---Inception-of-open---source-EDA-,-OpenLANE-and-Sky130-PDK)
 * [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Day-2---Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 * [Day 3 - Design library cell using Magic Layout and ngspice characterization](#Day-3---Design-library-cell-using-Magic-Layout-and-ngspice-characterization)
+* [Day 4 - Pre-layout timing analysis and importance of good clock tree](Day-4---Pre-layout-timing-analysis-and-importance-of-good-clock-tree)
+
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### OBJECTIVES:
 **1. To start OpenLANE in Interactive Mode:**
@@ -212,6 +214,68 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
       ![Screenshot (634)](https://github.com/user-attachments/assets/cbbe2cbe-6644-44d5-8f6a-752eb40ae5b0)
 
     * Exercise to implement poly resistor spacing to diff and tap:
+      ![Screenshot (636)](https://github.com/user-attachments/assets/70b9d8a3-27a5-4654-bd6a-623abe60e5cf)
+
+    * Lab challenge exercise to describe DRC error as geometrical construct:
+      ![Screenshot (637)](https://github.com/user-attachments/assets/a05bc396-1a12-42e4-beb4-121b510c4be7)
+
+  ## Day 4 - Pre-layout timing analysis and importance of good clock tree
+
+  ### OBJECTIVES:
+
+  1. Open the custom layout:
+     Commands overview -
+     ![Screenshot (639)](https://github.com/user-attachments/assets/7a1708ea-64da-46bd-8c7b-347a0e1364be)
+     Tracks info -
+     ![Screenshot (638)](https://github.com/user-attachments/assets/3585c652-3c49-451f-b9f1-4bde8120c1c4)
+
+  2. Setup grid in the layout in the tkcon window:
+     ```
+     help grid
+     grid 0.46um 0.34um 0.23um 0.17um
+     ```
+     ![Screenshot (642)](https://github.com/user-attachments/assets/97c3c91c-5e67-400f-90f4-aadabd50b4c0)
+
+  3. Save the layout and generate the LEF file
+     ![Screenshot (643)](https://github.com/user-attachments/assets/36729e1e-39ff-434f-a15a-1fdff4a355b1)
+
+     Now, open the saved layout using the command -
+     ```
+     magic -T sky130A.tech sky130_vsdinv.mag &
+     ```
+     Now, enter ```lef write``` in the tkcon window:
+     ![Screenshot (644)](https://github.com/user-attachments/assets/1964d9dd-ffc1-41fc-b8d4-9724c4e3d979)
+
+     Open the .lef file -
+     ![Screenshot (645)](https://github.com/user-attachments/assets/3364ab8e-780a-4293-a079-7d53d5acaff6)
+
+  4. Copy the .lef file and important library files to src directory:
+     ```
+     # Copy the LEF files
+     cp sky130_vsdinv.lef /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/
+     ```
+     ```
+     # Copy the important Liberty files
+     cp libs/sky130_fd_sc_hd__* ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/
+     ```
+     ![Screenshot (646)](https://github.com/user-attachments/assets/60993ad3-3e7c-4c94-af6f-49eed87806de)
+
+  5. Modify config.tcl and add new LEF file in OpenLANE:
+     ![Screenshot (647)](https://github.com/user-attachments/assets/cf3f6d98-d657-4871-9e1d-5d49bf223a3a)
+     
+
+
+
+
+
+
+       
+
+
+
+      
+  
+
        
 
 
