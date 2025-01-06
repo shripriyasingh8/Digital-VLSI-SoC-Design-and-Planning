@@ -155,10 +155,10 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
 
 8. Characterization of Inverter using sky130 model files:
    - Parameters to characterize:
-     - Rise Time: The time taken for the output waveform to transition from 20% to 80% of its maximum value.
-     - Fall Time: The time taken for the output waveform to transition from 80% to 20% of its maximum value.
-     - Propagation Delay: The time taken for a 50% transition at the output (0 to 1) corresponding to a 50% transition at the input (1 to 0).
-     - Cell Fall Delay: The time taken for a 50% transition at the output (1 to 0) corresponding to a 50% transition at the input (0 to 1).
+     - Rise Time
+     - Fall Time
+     - Propagation Delay
+     - Cell Fall Delay
 9. To find errors in the DRC section of the magic tech file for the sky130 process and fix them:
     * Download and unzip the DRC Test Files by using the given command step-by-step:
       ```
