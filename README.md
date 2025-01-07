@@ -294,6 +294,8 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
    11. We can use the ```expand``` command to get a detailed view of the placement cells.
        ![Screenshot (656)](https://github.com/user-attachments/assets/c80cb944-af3e-4468-a964-1f0564ef27c9)
 
+
+
        
 
 
