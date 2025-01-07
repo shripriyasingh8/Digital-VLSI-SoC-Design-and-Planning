@@ -21,11 +21,11 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
    
    ![Screenshot (588)](https://github.com/user-attachments/assets/d3cc703d-61c0-4e8a-a1d2-ac53e8d46fe4)
 **3. To Calculate the Flop Ratio:**
-   
+   ```
    $$
    Flop \ Ratio = \frac{No. \ of \ D \ Flip-Flops}{Total \ no. \ of \ cells}=\frac{1613}{14876}=0.108429
    $$
- 
+   ```
    ![Screenshot (589)](https://github.com/user-attachments/assets/337462f1-7d34-4da7-8288-de02d24b6a15)
 
 ## _Day 2 - Good floorplan vs bad floorplan and introduction to library cells_
@@ -34,14 +34,18 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
   A 'core' is the section of the chip where the fundamental design of the logic is placed.
 * ### Die:
   A 'die', which consists of core, is small semiconductor material speciman on which the fundamental circuit is fabricated. 
-* ### Utilisation factor: 
+* ### Utilisation factor:
+```
 $$
 Utilization \ Factor = \frac{Area \ occupied \ by \ netlist}{Total \ area \ of \ the \ core}
 $$
-* ### Aspect Ratio: 
+```
+* ### Aspect Ratio:
+```
 $$
 Aspect \ Ratio = \frac{Height \ of \ the \ core}{Width \ of \ the \ core}
 $$
+```
 ## OBJECTIVES:
 **1. Run Floorplan using OpenLANE:**
 
