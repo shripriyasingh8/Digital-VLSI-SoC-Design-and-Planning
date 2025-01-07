@@ -298,9 +298,9 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
        ![Screenshot (656)](https://github.com/user-attachments/assets/c80cb944-af3e-4468-a964-1f0564ef27c9)
 
 # _Acknowledgments_
-  * [Kunal Ghosh](https://github.com/kunalg123)
-  * [Nickson P Jose](https://github.com/nickson-jose)
-  * [R. Timothy Edwards](https://github.com/RTimothyEdwards)
+  * [Kunal Ghosh](https://github.com/kunalg123):  Director and co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+  * [Nickson P Jose](https://github.com/nickson-jose): Technical Lead @HCLTech | Ex-Intel
+  * [R. Timothy Edwards](https://github.com/RTimothyEdwards): Senior Vice President of Analog and Design at efabless corporation
 
 
 
