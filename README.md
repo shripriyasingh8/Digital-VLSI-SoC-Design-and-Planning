@@ -1,3 +1,6 @@
+![68747470733a2f2f7777772e766c736973797374656d64657369676e2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f31322f7673645f6c6f676f2e6a7067](https://github.com/user-attachments/assets/f5a5d09d-ec89-4988-99e0-ca198991f96e)
+
+
 # **Digital VLSI SoC Design and Planning Program**
 ## _OVERVIEW_
 This is a two-week long workshop conducted by VSD in collaboration with NASSCOM. This course provides a comprehensive outlook of the RTL2GDSII flow, making us understand how to convert high-level designs into a format ready for silicon fabrication. This repository demonstrates my learnings from the same. 
@@ -7,6 +10,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 * [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Day-2---Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 * [Day 3 - Design library cell using Magic Layout and ngspice characterization](#Day-3---Design-library-cell-using-Magic-Layout-and-ngspice-characterization)
 * [Day 4 - Pre-layout timing analysis and importance of good clock tree](#Day-4---Pre-layout-timing-analysis-and-importance-of-good-clock-tree)
+* Day 5 - Final steps for RTL2GDS using tritonRoute and openSTA (Screenshots
 
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### OBJECTIVES:
