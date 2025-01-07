@@ -12,7 +12,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
 * [Day 4 - Pre-layout timing analysis and importance of good clock tree](#Day-4---Pre-layout-timing-analysis-and-importance-of-good-clock-tree)
 * Day 5 - Final steps for RTL2GDS using tritonRoute and openSTA
 
-## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
+## _Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK_
 ### OBJECTIVES:
 **1. To start OpenLANE in Interactive Mode:**
    
@@ -28,7 +28,7 @@ This is a two-week long workshop conducted by VSD in collaboration with NASSCOM.
  
    ![Screenshot (589)](https://github.com/user-attachments/assets/337462f1-7d34-4da7-8288-de02d24b6a15)
 
-## Day 2 - Good floorplan vs bad floorplan and introduction to library cells
+## _Day 2 - Good floorplan vs bad floorplan and introduction to library cells_
 ## Chip Floor planning considerations
 * ### Core: 
   A 'core' is the section of the chip where the fundamental design of the logic is placed.
@@ -91,7 +91,7 @@ _Now, if we zoom in, we can see the placement of the standard cells:_
 
 ![Screenshot (601)](https://github.com/user-attachments/assets/718c8fd0-764a-4c20-949a-58ba355a7131)
 
-## Day 3 - Design library cell using Magic Layout and ngspice characterization
+## _Day 3 - Design library cell using Magic Layout and ngspice characterization_
 ### Overview
 In this section, we have to design a CMOS Invertor layout using the MAGIC tool and then characterize it with the Ngspice tool. For this, we will be cloning the necessary files, and then SPICE extractions of them, and then post layout SPICE simulations. 
 
@@ -222,7 +222,7 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
     * Lab challenge exercise to describe DRC error as geometrical construct:
       ![Screenshot (637)](https://github.com/user-attachments/assets/a05bc396-1a12-42e4-beb4-121b510c4be7)
 
-  ## Day 4 - Pre-layout timing analysis and importance of good clock tree
+  ## _Day 4 - Pre-layout timing analysis and importance of good clock tree_
 
   ### OBJECTIVES:
 
@@ -297,7 +297,7 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
    11. We can use the ```expand``` command to get a detailed view of the placement cells.
        ![Screenshot (656)](https://github.com/user-attachments/assets/c80cb944-af3e-4468-a964-1f0564ef27c9)
 
-# Acknowledgments
+# _Acknowledgments_
   * [Kunal Ghosh](https://github.com/kunalg123)
   * [Nickson P Jose](https://github.com/nickson-jose)
   * [R. Timothy Edwards](https://github.com/RTimothyEdwards)
