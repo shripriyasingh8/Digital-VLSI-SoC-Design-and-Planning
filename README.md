@@ -3,7 +3,15 @@
 
 # **Digital VLSI SoC Design and Planning Program**
 ## _OVERVIEW_
-This is a two-week long workshop conducted by VSD in collaboration with NASSCOM. This course provides a comprehensive outlook on the RTL2GDSII flow, making us understand how to convert high-level designs into a format ready for silicon fabrication. This repository demonstrates my learnings from the same. 
+This is a two-week long workshop conducted by VSD in collaboration with NASSCOM. This course provides a comprehensive outlook on the RTL2GDSII flow in ASIC Designing using OpenLane, making us understand how to convert high-level designs into a format ready for silicon fabrication. This repository demonstrates my learnings from the same. 
+
+#Tools Used
+- VirtualBox
+- Magic
+- Ngspice
+- Yosys
+- OpenROAD
+- PDK used: SKY130 PDK
 
 ## _Table of Content_
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Day-1---Inception-of-open---source-EDA-,-OpenLANE-and-Sky130-PDK)
