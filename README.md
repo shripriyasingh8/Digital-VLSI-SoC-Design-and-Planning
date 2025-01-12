@@ -5,7 +5,7 @@
 ## _OVERVIEW_
 This is a two-week long workshop conducted by VSD in collaboration with NASSCOM. This course provides a comprehensive outlook on the RTL2GDSII flow in ASIC Designing using OpenLane, making us understand how to convert high-level designs into a format ready for silicon fabrication. This repository demonstrates my learnings from the same. 
 
-# Tools Used
+## _Tools Used_
 - VirtualBox
 - Magic
 - Ngspice
