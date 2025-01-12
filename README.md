@@ -306,6 +306,10 @@ In this section, we have to design a CMOS Invertor layout using the MAGIC tool a
   * [Nickson P Jose](https://github.com/nickson-jose): Technical Lead @HCLTech | Ex-Intel
   * [R. Timothy Edwards](https://github.com/RTimothyEdwards): Senior Vice President of Analog and Design at efabless corporation
 
+# _Certificate_
+   ![WhatsApp Image 2025-01-12 at 2 16 57 PM](https://github.com/user-attachments/assets/44a4b807-a3da-4ee8-b184-b248b7843402)
+
+
 
 
        
